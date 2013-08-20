@@ -1,0 +1,17 @@
+def attack(enemy):    # defines the attack cycle
+    print ('\n do you use:')
+    for x in powers:
+        print ('\t'+x)
+    use = raw_input()
+    if use == 'by':
+        print ('ok skiping DAMAGE = 2000')
+        global MonsterHp
+        MonsterHp -= 2000
+        return
+    else:
+        pass
+    global MonsterHp
+    MonsterHp -= powers[use]
+    global YouHp
+    YouHp -= eval(enemy)
+    print ('opponit uses '+enemy)
