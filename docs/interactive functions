@@ -14,4 +14,4 @@ def attack(enemy):    # defines the attack cycle
     MonsterHp -= powers[use]
     global YouHp
     YouHp -= eval(enemy)
-    print ('opponit uses '+enemy)
+    print ('opponent uses '+enemy)
