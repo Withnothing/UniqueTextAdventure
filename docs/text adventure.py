@@ -7,7 +7,7 @@ Intelligence = ""
 
 
 def welcomeMessage():
-    name = input("what's your name?")
+    name = input("What's your name?")
 
     if name == "" or name == int:
        print ("You did not enter your name!")
@@ -92,7 +92,7 @@ def prologue():
     print ("You have been hunting in the forest for a while and decided to go back to your hometown Sumonia.")  
     print
     print
-    print ("The way back is long and dark, you feel a little psychopatic... You've heard from a shortcut nearby, but it's dangerous there.")
+    print ("The way back is long and dark, you feel a little psychopathic... You've heard about a shortcut nearby, but it's dangerous there.")
     print
     print
     firstChoice = input ("Do you wanna TAKE THE RISK or STAY ON TRACK?")
@@ -100,11 +100,11 @@ def prologue():
         print ("You walk down a hill...")
         sleep(2.5)
         print
-        print ("And fall into a giant ravin!")
+        print ("And fall into a giant ravine!")
         print (playAgain())        
 
     elif firstChoice == "STAY ON TRACK":
-        print ("You continue you journey to your hometown, you chose wisely!")
+        print ("You continue your journey to your hometown, you chose wisely!")
 
     else:
         print("You can't choose that!")
